@@ -10,8 +10,8 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
  
  
 ## Equipments Required:
-## Hardware – PCs, Cyclone II , USB flasher
-## Software – Quartus prime
+1. Hardware – PCs, Cyclone II, USB flasher
+2. Software – Quartus prime
 
 
 ## Theory
