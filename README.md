@@ -35,7 +35,8 @@ RegisterNumber:  212221230103
 
 ## Output:
 ## RTL
-![image](https://github.com/SOMEASVAR/Experiment--02-Implementation-of-combinational-logic-/assets/93434149/1060774b-9df0-450f-8eec-6d6405cb2202)
+![image](https://github.com/SOMEASVAR/Experiment--02-Implementation-of-combinational-logic-/assets/93434149/58b84dde-a56d-4a32-b95d-8701347cbb8b)
+
 
 
 ## Timing Diagram
