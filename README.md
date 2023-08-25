@@ -18,7 +18,9 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
  
 
 ## Logic Diagram
+
 ## Procedure
+
 ## Program:
 ```
 Program to implement the given logic function and to verify its operations in quartus using
@@ -33,6 +35,9 @@ RegisterNumber:  212221230103
 
 ## Output:
 ## RTL
+![image](https://github.com/SOMEASVAR/Experiment--02-Implementation-of-combinational-logic-/assets/93434149/1060774b-9df0-450f-8eec-6d6405cb2202)
+
+
 ## Timing Diagram
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
