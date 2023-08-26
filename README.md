@@ -71,7 +71,8 @@ endmodule
 
 ## Output:
 ## RTL
-![Uploading image.png…]()
+![image](https://github.com/SOMEASVAR/Experiment--02-Implementation-of-combinational-logic-/assets/93434149/1482e3d2-6216-4aff-aa23-34f87d9fb883)
+
 
 
 ## Result:
