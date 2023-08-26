@@ -19,21 +19,28 @@ Logic gates are electronic circuits which perform logical functions on one or mo
  
 
 ## Logic Diagram:
+![image](https://github.com/SOMEASVAR/Experiment--02-Implementation-of-combinational-logic-/assets/93434149/a665c88c-10e7-4fca-b491-faf26b4f94b4)
+
 
 
 ## Procedure:
 ### Step 1:
 Create a project with required entities.
 
-Step 2: Create a module along with respective file name.
+### Step 2: 
+Create a module along with respective file name.
 
-Step 3: Run the respective programs for the given boolean equations.
+### Step 3: 
+Run the respective programs for the given boolean equations.
 
-Step 4: Run the module and get the respective RTL outputs.
+### Step 4:
+Run the module and get the respective RTL outputs.
 
-Step 5: Create university program(VWF) for getting timing diagram.
+### Step 5: 
+Create university program(VWF) for getting timing diagram.
 
-Step 6: Give the respective inputs for timing diagram and obtain the results.
+### Step 6: 
+Give the respective inputs for timing diagram and obtain the results.
 
 ## Program:
 ```
@@ -43,16 +50,29 @@ Verilog programming.
 Developed by: Someasvar R
 RegisterNumber:  212221230103
 ```
+```
+module Logic(A,B,C,D,F1);
+input A,B,C,D;
+output F1;
+wire x1,x2,x3,x4,x5;
+assign x1=(~A)&(~B)&(~C)&(~D);
+assign x2=(A)&(~C)&(~D);
+assign x3=(~B)&(C)&(~D);
+assign x4=(~A)&(B)&(C)&(D);
+assign x5=(B)&(~C)&(D);
+assign F1=x1|x2|x3|x4|x5;
+endmodule
+```
 ## RTL realization
 ![image](https://github.com/SOMEASVAR/Experiment--02-Implementation-of-combinational-logic-/assets/93434149/d395b283-1d45-4a3c-8a9a-cf8cbda4b891)
+### Truth Table:
+![image](https://github.com/SOMEASVAR/Experiment--02-Implementation-of-combinational-logic-/assets/93434149/4bd7dea9-6f7f-43c5-bab2-ee06b5bbd37e)
 
 
 ## Output:
 ## RTL
-![image](https://github.com/SOMEASVAR/Experiment--02-Implementation-of-combinational-logic-/assets/93434149/58b84dde-a56d-4a32-b95d-8701347cbb8b)
+![Uploading image.png…]()
 
 
-
-## Timing Diagram
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
