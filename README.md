@@ -14,12 +14,26 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 2. Software – Quartus prime
 
 
-## Theory
+## Theory:
+Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output.
  
 
-## Logic Diagram
+## Logic Diagram:
 
-## Procedure
+
+## Procedure:
+### Step 1:
+Create a project with required entities.
+
+Step 2: Create a module along with respective file name.
+
+Step 3: Run the respective programs for the given boolean equations.
+
+Step 4: Run the module and get the respective RTL outputs.
+
+Step 5: Create university program(VWF) for getting timing diagram.
+
+Step 6: Give the respective inputs for timing diagram and obtain the results.
 
 ## Program:
 ```
